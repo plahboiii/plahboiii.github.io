@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!--Header and navbar-->
+    <header id="main-header">
+      <h1 class="header-title">Technical blog</h1>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="idkyetlol.html">It's over</a></li>
+          <li><a href="TechnincalBlog.html">Technical blog</a></li>
+          <!--<li><a href="LearningPlan.html">Learning plan</a></li>-->
+        </ul>
+      </nav>
+    </header>
+    <!--Main blog content goes here-->
+    <main id="content">
+      <h1>Practices associated with using classes vs IDs</h1>
+      <div class="post">
+        <p class="post-content">
+          In web development, it is common to use <b>classes</b> and
+          <b>ID</b> selectors to identify what attributes to style on a webpage.
+          This blog post will show how we can distinguish the differences and
+          how to apply them.
+        </p>
+      </div>
+      <hr />
+      <div class="post">
+        <h1>Classes</h1>
+      </div>
+
+      <div class="post">
+        <p class="post-content">
+          <b>Classes</b> are commonly used to style attributes that fall under
+          the same category. When using classes, every attribute with the same
+          name will be styled the same way. You implement a class in HTML by
+          writing an attribute, followed by the class attribute, then the name
+          of the class. The class attribute in css follows simplified writing,
+          with a dot followed by the class name and {} brackets, and the content
+          goes inside the brackets. All of this is showed in some example images
+          below.
+        </p>
+        <img class="image" src="./img/Class ss.png" alt="Class_HTML_example" />
+        <img
+          class="image"
+          src="./img/Class_css_ss.png"
+          alt="Class_CSS_example"
+          height="150px"
+        />
+      </div>
+      <hr />
+      <div class="post">
+        <h1>IDs</h1>
+      </div>
+
+      <div class="post">
+        <p class="post-content">
+          <b>IDs</b> work similarly to classes, but instead of having multiple
+          attributes categorized in one class, IDs are used in a single instance
+          on a page, and cannot be reused for other attributes. When identifying
+          and implementing a ID selector in HTML, the process follows the same
+          steps as a class selector, but instead of using a fullstop in css, it
+          is written with a # followed by the ID name and {}. This will also be
+          shown in some example images below.
+        </p>
+        <img class="image" src="./img/ID HTML ss.png" alt="ID HTML example" />
+        <img class="image" src="./img/ID CSS ss.png" alt="ID CSS example" />
+      </div>
+    </main>
+    <footer id="bottom">
+      <p>&copy; 2024 Caleb Gowers</p>
+    </footer>
+  </body>
+</html>

@@ -1,7 +1,7 @@
-/*imported font */
+/* Imported Font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* body styling */
+/* Body Style */
 body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -11,21 +11,23 @@ body {
   color: black;
 }
 
-/* header styling */
+/* Header Styles */
 #main-header {
   background-color: black;
   color: white;
-  padding: 5px;
+  margin-bottom: 5000px;
+  top: 0;
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 
 .header-title {
   margin: 0;
 }
-/* Navbar styling */
+
 .nav-bar {
   padding: 0;
-  list-style: none;
 }
 
 .nav-bar li a {
@@ -37,32 +39,26 @@ nav ul li {
   display: inline;
   margin: 0 15px;
 }
+
 /* Main Content Styles */
 #content {
   max-width: 800px;
-  margin: 10px auto;
-}
-
-#linked {
-  color: black;
-  text-decoration: underline;
-}
-
-.homepage {
-  margin-left: 50px;
-}
-
-/*div class */
-.split {
-  background-color: white;
-  margin-bottom: 30px;
-  padding: 30px;
-  font-size: x-large;
-}
-/*p styling */
-.post-content {
-  margin: 50px;
+  margin: 100px auto;
+  padding: 0px;
   text-align: center;
+}
+
+/* Post Background Styling */
+.post {
+  background-color: white;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.image {
+  padding: 0;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 /* Footer content */
@@ -77,7 +73,7 @@ nav ul li {
   right: 0;
 }
 
-/* Responsive design */
+/* Responsive Styles */
 @media (max-width: 768px) {
   .nav-list li {
     display: inline;
