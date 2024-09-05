@@ -1,0 +1,90 @@
+/*imported font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* body styling */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+/* header styling */
+#main-header {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.header-title {
+  margin: 0;
+}
+/* Navbar styling */
+.nav-bar {
+  padding: 0;
+  list-style: none;
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+/* Main Content Styles */
+#content {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+#linked {
+  color: black;
+  text-decoration: underline;
+}
+
+.homepage {
+  margin-left: 50px;
+}
+
+/*div class */
+.split {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 30px;
+  font-size: x-large;
+}
+/*p styling */
+.post-content {
+  margin: 50px;
+  text-align: center;
+}
+
+/* Footer content */
+#bottom {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 400px) {
+  .nav-list li {
+    display: inline;
+    margin: 5px;
+  }
+
+  #content {
+    padding: 0;
+  }
+}
