@@ -74,7 +74,7 @@ nav ul li {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media only screen and (max-width: 400px) {
   .nav-list li {
     display: inline;
     margin: 5px;

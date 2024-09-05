@@ -57,3 +57,13 @@ nav ul li {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
+
+@media only screen and (max-width: 400px) {
+  .nav-bar li {
+    display: inline;
+    margin: 5px;
+  }
+  .block {
+    display: inline-block;
+  }
+}
